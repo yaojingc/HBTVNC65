@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="gbk"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+<bean id="funcregister" class="nc.pubapp.pade.funcmodel.vo.FuncRegister"><property name="bmf_path" value="erm\METADATA\test\test01.bmf"/>
+<property name="busiActiveList">
+<list></list>
+</property>
+<property name="dr" value="0"/>
+<property name="funcRegisterButtonList">
+<list></list>
+</property>
+<property name="funcRegisterParamList">
+<list><bean class="nc.pubapp.pade.funcmodel.vo.FuncRegisterParam"><property name="dr" value="0"/>
+</bean>
+</list>
+</property>
+<property name="funnode_path" value="erm\designmodel\ace\client\A0R010.fnf"/>
+<property name="menuModelFilePath" value="erm/designmodel/funcmodel/test01/menuitemregis/BI010101.menu"/>
+<property name="metaDataID" value="23e74216-9f79-4171-8fe8-ec5b9755a980"/>
+<property name="moduleName" value="test"/>
+<property name="orgtypecode" value="GROUPORGTYPE00000000"/>
+<property name="pageList">
+<list></list>
+</property>
+<property name="uif2model_path" value="erm\designmodel\ace\uif2model\A0R010.umf"/>
+</bean>
+
+</beans>
